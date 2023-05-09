@@ -1,0 +1,129 @@
+*{
+    margin: 0px;
+    font-family: 'Inter';
+}
+
+#menusuperior{
+    background-color: #303030;
+    color: aliceblue;
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+
+#titulosuperior{
+    margin-left: 150px;
+    margin-top: 10px;
+}
+
+#textosuperior{
+    margin-top: 10px;
+    margin-left: 150px;
+    font-weight: 200;
+}
+
+#menuinformacional{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    font-size: 15px;
+    font-weight: bolder;
+    padding-left: 150px;
+    padding-bottom: 50px;
+    padding-top: 70px;
+    background-color: #F9F9F9;
+}
+
+#textoimagen{
+    font-weight: 200;
+    font-size: 15px;
+}
+
+#tituloimagen{
+    padding-top: 250px;
+    margin-left: 150px;
+    padding-bottom: 60px;
+}
+
+#image1{
+    margin-top: 100px;
+    margin-bottom: 100px;  
+}
+
+
+
+#image2{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 20px;
+    margin-right: 30px;
+    display: none;
+}
+
+.seta{
+    cursor: pointer;
+}
+
+.seta:hover{
+    transform: translateY(-7px);
+    transition: 0.5s;
+}
+
+#seta-esquerda{
+    margin-top: 350px;
+    margin-right: 20px;
+    display: none;
+}
+#seta-direita{
+    margin-top: 350px;
+    margin-left: 20px;
+}
+
+#seçãoimagen{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    background-color: #F5F5F5;
+}
+
+
+#formulário{
+    text-align: center;
+    background-color: #303030;
+    color: aliceblue;
+}
+
+#tituloformulário{
+    margin: 0px;
+    padding-top: 30px;
+}
+
+input{
+    margin: 10px;
+    padding-left: 15px;
+    background-color: #F9F9F9;
+    border: 0px;
+    border-radius: 20px;
+    width: 250px;
+    height: 40px;
+}
+
+button{
+    margin: 10px;
+    background-color: #C07212;
+    border: 0px;
+    border-radius: 25px;
+    width: 170px;
+    height: 40px;
+    margin-bottom: 40px;
+    color: #F9F9F9;
+    font-weight: bolder;
+}
+
+button:hover{
+    background-color: #e08619;
+    color: white;
+    transform: translateY(-7px);
+    transition-duration: 0.5s;
+    cursor: pointer;
+    box-shadow: 0px 10px 15px #e3922f;
+}
